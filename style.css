@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgb(49 38 38);
+    color: white;
+    height: 4.3vw;
+    cursor: pointer;
+}
+.center{
+  
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Lobster', cursive;
+    font-size: 2vw;
+    position: absolute;
+    right: 30vw;
+
+}
+nav span img{
+    width:3vw;
+    padding: 10px;
+}
+.container{
+    width: 50vw;
+    margin: 1vw auto;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5vw;
+
+
+}
+.toolbar-item button{
+    
+    cursor: pointer !important;
+    color: white !important;
+    width: 6vw !important;
+    height: 2vw !important;
+    border: 2px solid white !important;
+    border-radius: 10px !important;
+
+}
